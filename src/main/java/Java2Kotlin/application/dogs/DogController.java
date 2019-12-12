@@ -1,4 +1,4 @@
-package Java2Kotlin.application;
+package Java2Kotlin.application.dogs;
 
 import Java2Kotlin.domain.dog.Dog;
 import org.springframework.web.bind.annotation.*;

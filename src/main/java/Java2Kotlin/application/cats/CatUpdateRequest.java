@@ -1,4 +1,4 @@
-package Java2Kotlin.application;
+package Java2Kotlin.application.cats;
 
 import Java2Kotlin.domain.shared.Location;
 

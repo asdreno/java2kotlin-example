@@ -1,4 +1,4 @@
-package Java2Kotlin.application;
+package Java2Kotlin.application.dogs;
 
 import Java2Kotlin.domain.shared.Location;
 
