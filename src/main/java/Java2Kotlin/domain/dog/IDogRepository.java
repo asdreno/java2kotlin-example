@@ -6,5 +6,7 @@ public interface IDogRepository {
 
     List<Dog> all();
 
-    void save(Dog dog);
+    Dog findById(String id);
+
+    Dog save(Dog cat);
 }
