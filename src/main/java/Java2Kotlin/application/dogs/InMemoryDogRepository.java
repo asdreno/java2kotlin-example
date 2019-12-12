@@ -2,11 +2,11 @@ package Java2Kotlin.application.dogs;
 
 import Java2Kotlin.domain.dog.Dog;
 import Java2Kotlin.domain.dog.IDogRepository;
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Component;
 
 import java.util.*;
 
-@Service
+@Component
 public class InMemoryDogRepository implements IDogRepository {
 
     private Map<String, Dog> dogs = new HashMap<>();

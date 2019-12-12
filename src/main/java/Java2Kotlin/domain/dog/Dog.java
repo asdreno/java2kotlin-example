@@ -1,6 +1,6 @@
 package Java2Kotlin.domain.dog;
 
-import Java2Kotlin.domain.Owner;
+import Java2Kotlin.domain.owner.Owner;
 import Java2Kotlin.domain.shared.Location;
 
 import java.time.Instant;

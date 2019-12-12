@@ -2,6 +2,7 @@ package Java2Kotlin.application.dogs;
 
 import Java2Kotlin.domain.dog.Dog;
 import Java2Kotlin.domain.dog.IDogRepository;
+import Java2Kotlin.domain.owner.IOwnerRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -11,8 +12,11 @@ public class DogService {
 
     private final IDogRepository dogRepository;
 
-    public DogService(IDogRepository dogRepository) {
+    private final IOwnerRepository ownerRepository;
+
+    public DogService(IDogRepository dogRepository, IOwnerRepository ownerRepository) {
         this.dogRepository = dogRepository;
+        this.ownerRepository = ownerRepository;
     }
 
     public List<Dog> findAll() {

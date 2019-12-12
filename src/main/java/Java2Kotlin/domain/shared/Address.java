@@ -8,6 +8,16 @@ public class Address {
 
     private String street;
 
+    public Country getCountry() {
+        return country;
+    }
+
+    public void setCountry(Country country) {
+        this.country = country;
+    }
+
+    private Country country;
+
     public String getCity() {
         return city;
     }
