@@ -12,6 +12,16 @@ public class DogUpdateRequest {
 
     private Location location;
 
+    private String ownerId;
+
+    public String getOwnerId() {
+        return ownerId;
+    }
+
+    public void setOwnerId(String ownerId) {
+        this.ownerId = ownerId;
+    }
+
     public String getName() {
         return name;
     }
