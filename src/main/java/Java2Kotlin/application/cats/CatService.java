@@ -4,7 +4,6 @@ import Java2Kotlin.domain.cat.Cat;
 import Java2Kotlin.domain.cat.ICatRepository;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Service

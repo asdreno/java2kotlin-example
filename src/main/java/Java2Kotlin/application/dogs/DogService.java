@@ -4,7 +4,6 @@ import Java2Kotlin.domain.dog.Dog;
 import Java2Kotlin.domain.dog.IDogRepository;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Service
