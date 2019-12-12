@@ -17,7 +17,7 @@ public class DogService {
     }
 
     public List<Dog> findAll() {
-        return new ArrayList<>();
+        return dogRepository.all();
     }
 
     public Dog create(DogUpdateRequest request){

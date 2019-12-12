@@ -17,7 +17,7 @@ public class CatService {
     }
 
     public List<Cat> findAll() {
-        return new ArrayList<>();
+        return catRepository.all();
     }
 
     public Cat create(CatUpdateRequest request){

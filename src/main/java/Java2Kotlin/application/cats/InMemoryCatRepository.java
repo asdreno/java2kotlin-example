@@ -2,11 +2,11 @@ package Java2Kotlin.application.cats;
 
 import Java2Kotlin.domain.cat.Cat;
 import Java2Kotlin.domain.cat.ICatRepository;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.util.*;
 
-@Component
+@Service
 public class InMemoryCatRepository implements ICatRepository {
 
     private Map<String, Cat> cats = new HashMap<>();
@@ -32,6 +32,7 @@ public class InMemoryCatRepository implements ICatRepository {
             id = cat.getId();
         }
 
+        cat.setId(id);
         cats.put(id, cat);
         return cat;
     }
