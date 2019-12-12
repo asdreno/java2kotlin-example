@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 import java.util.*;
 
 @Component
-public class MemoryCatRepository implements ICatRepository {
+public class InMemoryCatRepository implements ICatRepository {
 
     private Map<String, Cat> cats = new HashMap<>();
 

@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 import java.util.*;
 
 @Component
-public class MemoryDogRepository implements IDogRepository {
+public class InMemoryDogRepository implements IDogRepository {
 
     private Map<String, Dog> dogs = new HashMap<>();
 
